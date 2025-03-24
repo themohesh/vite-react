@@ -91,8 +91,8 @@ const Usertable: React.FC<UserTable> = ({ users }) => {
   };
 
   return (
-    <div>
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+    <div className="">
+      <div className="flex flex-row">
         <div>
           <div>
             <label>
@@ -183,6 +183,7 @@ const Usertable: React.FC<UserTable> = ({ users }) => {
 
 export default Usertable;
 
+/////////////////////////////////////////////////////////////
 const EditUserComp: React.FC<UserEdit> = ({
   editUser,
   filteredData,
